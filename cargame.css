@@ -1,0 +1,88 @@
+*{
+  padding:0;
+  margin:0;
+}
+.main{
+  height:100vh;
+  width:100%;
+  background-image: url('logos/back.png');
+  background-repeat: no-repeat;
+}
+.road{
+  border-left-style:dotted;
+  border-right-style:dotted;
+  border-color:white;
+  border-width: 10px;
+  height:100vh;
+  width:500px;
+  background-color: #47484c;
+  margin:auto;
+  position: relative;  
+  overflow: hidden;
+}
+.hide{
+  display: none;
+}
+.scoreBoard{
+  position: absolute;
+  top:15px;
+  left:150px;
+  font-size: 35px;
+  font-family: 'Special Elite', cursive;
+  color:white;
+}
+.highBoard{
+  position: absolute;
+  top:60px;
+  left:150px;
+  font-size: 35px;
+  font-family: 'Special Elite', cursive;
+  color:white;
+}
+.banner{
+  position:absolute;
+  top:300px;
+  height:250px;
+  width:400px;
+  background-color: #27221C;
+}
+.car{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:119px;
+  width:59px;
+  position:absolute;
+  top:600px;
+ 
+}
+.line{
+  height:120px;
+  width:15px;
+  background-color: white;
+  position: absolute;
+  margin-left:250px;
+}
+.enemy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height:120px;
+  border-radius: 12px;
+  width:62px;
+  
+}
+.sbanner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  margin-top: 45px;
+  color:white;
+  font-family: 'Special Elite', cursive;
+}
+.sbanner p{
+  font-size: 30px;
+  line-height: 50px;
+}
